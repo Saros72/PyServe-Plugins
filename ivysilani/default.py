@@ -1,4 +1,4 @@
-import requestss
+import requests
 from bottle import redirect, response
 
 
