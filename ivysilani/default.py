@@ -1,5 +1,5 @@
 import requests
-from bottle import redirect, response
+from bottle import redirect
 
 
 FALLBACK_URL = "http://sledovanietv.sk/download/noAccess-cs.m3u8"
@@ -8,13 +8,23 @@ FALLBACK_URL = "http://sledovanietv.sk/download/noAccess-cs.m3u8"
 def get_stream(id):
     try:
         clean_id = id.split(".")[0]
+        manifest = id.split(".")[1]
+        if manifest == "m3u8":
+            streamType = "hls"
+        else:
+            streamType = "dash"
+
+        headers = {
+           'User-Agent': "okhttp/4.12.0",
+           'Accept-Encoding': "gzip"
+        }
 
         url = (
             "https://api.ceskatelevize.cz/video/v1/playlist-live/v1/stream-data/"
-            f"channel/CH_{clean_id}?canPlayDrm=false&streamType=hls&quality=web&maxQualityCount=5"
+            f"channel/CH_{clean_id}?canPlayDrm=false&streamType={streamType}&quality=1080p&maxQualityCount=1&client=iVysilaniAppAndroid&clientVersion=3.2.12"
         )
 
-        req = requests.get(url, timeout=5).json()
+        req = requests.get(url, headers=headers, timeout=5).json()
 
         return req["streamUrls"]["main"]
 

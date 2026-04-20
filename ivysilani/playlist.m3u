@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ct1.svg",ČT1
+http://127.0.0.1:9666/ivysilani/1.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ct2.svg",ČT2
+http://127.0.0.1:9666/ivysilani/2.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ct24.svg",ČT24
+http://127.0.0.1:9666/ivysilani/24.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsport.svg",ČT Sport
+http://127.0.0.1:9666/ivysilani/4.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctd.svg",ČT :D
+http://127.0.0.1:9666/ivysilani/5.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
+http://127.0.0.1:9666/ivysilani/28.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
+http://127.0.0.1:9666/ivysilani/29.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
+http://127.0.0.1:9666/ivysilani/31.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
+http://127.0.0.1:9666/ivysilani/32.m3u8
+#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
+http://127.0.0.1:9666/ivysilani/27.m3u8
