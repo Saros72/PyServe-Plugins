@@ -1,0 +1,145 @@
+{
+    "id": "freepornsex",
+    "media": [
+        "movies"
+    ],
+    "type": [
+        "catalogues",
+        "details",
+        "stream"
+    ],
+    "name": "Free Porn Sex",
+    "website": "https://www.freepornsex.net/",
+    "author": "Sároš",
+    "version": "0.1.1",
+    "description": "Porno videos.",
+    "baseUrl": "http://127.0.0.1:9666",
+    "responseFormat": "json",
+    "api": [
+        {
+            "name": "Girls Masturbating",
+            "type": "catalogue_3582",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/freesexporn?cat=3582&page={page}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Lesbian Sex",
+            "type": "catalogue_5605",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/freesexporn?cat=5605&page={page}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Nude Models",
+            "type": "catalogue_1534",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/freesexporn?cat=1534&page={page}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Sex Art",
+            "type": "catalogue_1",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/freesexporn?cat=1&page={page}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Shaved Pussy",
+            "type": "catalogue_4514",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/freesexporn?cat=4514&page={page}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "The Art of Orgasm",
+            "type": "catalogue_3752",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/freesexporn?cat=3752&page={page}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "type": "movie_detail",
+            "method": "GET",
+            "url": "/freesexporn?id={id}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "overview": "description",
+                    "posterPath": "poster",
+                    "backdropPath": "backdrop"
+                }
+            }
+        },
+        {
+            "name": "search",
+            "type": "stream_search",
+            "method": "GET",
+            "url": "/freesexporn?hash={id}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "url"
+                }
+            }
+        },
+        {
+            "name": "link",
+            "type": "link",
+            "response": {
+                "mapping": {
+                    "link": "{id}"
+                }
+            }
+        }
+    ]
+}
