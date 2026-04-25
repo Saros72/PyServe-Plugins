@@ -1,21 +1,23 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ct1.svg",ČT1
-http://127.0.0.1:9666/ivysilani/1.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ct2.svg",ČT2
-http://127.0.0.1:9666/ivysilani/2.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ct24.svg",ČT24
-http://127.0.0.1:9666/ivysilani/24.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsport.svg",ČT Sport
-http://127.0.0.1:9666/ivysilani/4.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctd.svg",ČT :D
-http://127.0.0.1:9666/ivysilani/5.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
-http://127.0.0.1:9666/ivysilani/28.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
-http://127.0.0.1:9666/ivysilani/29.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
-http://127.0.0.1:9666/ivysilani/31.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
-http://127.0.0.1:9666/ivysilani/32.m3u8
-#EXTINF:-1 tvg-logo="https://ctfs.ceskatelevize.cz/static/channels/ctsportextra.svg",ČT Sport Plus
-http://127.0.0.1:9666/ivysilani/27.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ct1.png",ČT1
+http://127.0.0.1:9666/ivysilani/play/1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ct2.png",ČT2
+http://127.0.0.1:9666/ivysilani/play/2.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ct24.png",ČT24
+http://127.0.0.1:9666/ivysilani/play/24.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctsport.png",ČT Sport
+http://127.0.0.1:9666/ivysilani/play/4.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctdecko.png",ČT :D
+http://127.0.0.1:9666/ivysilani/play/5.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctart.png",ČT art
+http://127.0.0.1:9666/ivysilani/play/6.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctsport.png",ČT Sport Plus 1
+http://127.0.0.1:9666/ivysilani/play/28.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctsport.png",ČT Sport Plus 2
+http://127.0.0.1:9666/ivysilani/play/29.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctsport.png",ČT Sport Plus 3
+http://127.0.0.1:9666/ivysilani/play/31.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctsport.png",ČT Sport Plus 4
+http://127.0.0.1:9666/ivysilani/play/32.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Saros72/PyServe-Plugins/refs/heads/main/ivysilani/logos/ctsport.png",ČT Sport Plus 5
+http://127.0.0.1:9666/ivysilani/play/27.m3u8
