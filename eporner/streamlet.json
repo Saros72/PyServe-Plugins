@@ -1,0 +1,1281 @@
+{
+    "id": "eporner",
+    "media": [
+        "movies"
+    ],
+    "type": [
+        "catalogues",
+        "details",
+        "stream"
+    ],
+    "name": "EPorner",
+    "website": "https://www.eporner.com/",
+    "author": "Sároš",
+    "version": "0.4.3",
+    "description": "Porno videos",
+    "baseUrl": "http://127.0.0.1:9666/eporner",
+    "responseFormat": "json",
+    "config": {
+        "apiKey": {
+            "type": "string",
+            "label": "Vlastní katalog (tag)",
+            "required": true
+        }
+    },
+    "api": [
+        {
+            "name": " 4K",
+            "type": "catalogue_movies_1",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/4k-porn/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": " 60Fps",
+            "type": "catalogue_movies_2",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/60fps/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Amateur",
+            "type": "catalogue_movies_3",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/amateur/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Anal",
+            "type": "catalogue_movies_4",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/anal/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Asian",
+            "type": "catalogue_movies_5",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/asian-porn/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Asmr",
+            "type": "catalogue_movies_6",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/asmr/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Bbw",
+            "type": "catalogue_movies_7",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/bbw/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Bdsm",
+            "type": "catalogue_movies_8",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/bdsm/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Big Ass",
+            "type": "catalogue_movies_9",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/big-ass/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Big Dick",
+            "type": "catalogue_movies_10",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/big-dick/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Big Tits",
+            "type": "catalogue_movies_11",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/big-tits/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Bisexual",
+            "type": "catalogue_movies_12",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/bisexual/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Blonde",
+            "type": "catalogue_movies_13",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/blonde/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Blowjob",
+            "type": "catalogue_movies_14",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/blowjob/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Bondage",
+            "type": "catalogue_movies_15",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/bondage/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Brunette",
+            "type": "catalogue_movies_16",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/brunette/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Bukkake",
+            "type": "catalogue_movies_17",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/bukkake/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Creampie",
+            "type": "catalogue_movies_18",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/creampie/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Cumshot",
+            "type": "catalogue_movies_19",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/cumshot/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Czech",
+            "type": "catalogue_movies_20",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/tag/czech-TmFuC4ow/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Czech Casting",
+            "type": "catalogue_movies_21",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/tag/czech-casting/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Czech Streets",
+            "type": "catalogue_movies_22",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/tag/czech-streets-vFwqGNqN/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Double Penetration",
+            "type": "catalogue_movies_23",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/double-penetration/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Ebony",
+            "type": "catalogue_movies_24",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/ebony/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Fat",
+            "type": "catalogue_movies_25",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/fat/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Fetish",
+            "type": "catalogue_movies_26",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/fetish/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Fisting",
+            "type": "catalogue_movies_27",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/fisting/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Footjob",
+            "type": "catalogue_movies_28",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/footjob/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "For Women",
+            "type": "catalogue_movies_29",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/for-women/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Gay",
+            "type": "catalogue_movies_30",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/gay/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Group Sex",
+            "type": "catalogue_movies_31",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/group-sex/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Handjob",
+            "type": "catalogue_movies_32",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/handjob/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Hardcore",
+            "type": "catalogue_movies_33",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/hardcore/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "HD 1080p",
+            "type": "catalogue_movies_34",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/hd-1080p/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "HD Sex",
+            "type": "catalogue_movies_35",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/hd-sex/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Hentai",
+            "type": "catalogue_movies_36",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/hentai/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Homemade",
+            "type": "catalogue_movies_37",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/homemade/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Hotel",
+            "type": "catalogue_movies_38",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/hotel/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Housewives",
+            "type": "catalogue_movies_39",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/housewives/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Hq Porn",
+            "type": "catalogue_movies_40",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/hq-porn/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Indian",
+            "type": "catalogue_movies_41",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/indian/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Interracial",
+            "type": "catalogue_movies_42",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/interracial/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Japanese",
+            "type": "catalogue_movies_43",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/japanese/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Latina",
+            "type": "catalogue_movies_44",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/latina/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Lesbian",
+            "type": "catalogue_movies_45",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/lesbians/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Lingerie",
+            "type": "catalogue_movies_46",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/lingerie/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Massage",
+            "type": "catalogue_movies_47",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/massage/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Masturbation",
+            "type": "catalogue_movies_48",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/masturbation/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Mature",
+            "type": "catalogue_movies_49",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/mature/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Milf",
+            "type": "catalogue_movies_50",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/milf/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Nurses",
+            "type": "catalogue_movies_51",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/nurse/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Office",
+            "type": "catalogue_movies_52",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/office/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Older Man",
+            "type": "catalogue_movies_53",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/old-man/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Orgy",
+            "type": "catalogue_movies_54",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/orgy/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Outdoor",
+            "type": "catalogue_movies_55",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/outdoor/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Petite",
+            "type": "catalogue_movies_56",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/petite/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Pornstar",
+            "type": "catalogue_movies_57",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/pornstar/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Pov",
+            "type": "catalogue_movies_58",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/pov-porn/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Public",
+            "type": "catalogue_movies_59",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/public/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Redhead",
+            "type": "catalogue_movies_60",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/redhead/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Shemale",
+            "type": "catalogue_movies_61",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/shemale/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Sleep",
+            "type": "catalogue_movies_62",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/sleep/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Small Tits",
+            "type": "catalogue_movies_63",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/small-tits/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Squirt",
+            "type": "catalogue_movies_64",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/squirt/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Striptease",
+            "type": "catalogue_movies_65",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/striptease/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Students",
+            "type": "catalogue_movies_66",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/students/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Swinger",
+            "type": "catalogue_movies_67",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/swingers/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Teen",
+            "type": "catalogue_movies_68",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/teens/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Threesome",
+            "type": "catalogue_movies_69",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/threesome/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Toys",
+            "type": "catalogue_movies_70",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/toys/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Uncategorized",
+            "type": "catalogue_movies_71",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/uncategorized/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Uniform",
+            "type": "catalogue_movies_72",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/uniform/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Vintage",
+            "type": "catalogue_movies_73",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/vintage/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "Webcam",
+            "type": "catalogue_movies_74",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/cat/webcam/{page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "⭐ Vlastní",
+            "type": "catalogue_movies_75",
+            "mediaType": "movie",
+            "isHome": false,
+            "method": "GET",
+            "url": "/tag?query={apiKey}&page={page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "type": "movie_detail",
+            "method": "GET",
+            "url": "/detail/{id}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "overview": "overview",
+                    "posterPath": "poster",
+                    "backdropPath": "backdrop",
+                    "rating": "rating",
+                    "runtime": "runtime",
+                    "releaseDate": "releaseDate"
+                }
+            }
+        },
+        {
+            "name": "{searchMovies}",
+            "type": "search_movies",
+            "mediaType": "movie",
+            "method": "GET",
+            "url": "/tag?query={query}&page={page}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "title": "title",
+                    "poster": "poster"
+                }
+            }
+        },
+        {
+            "name": "search",
+            "type": "stream_search",
+            "method": "GET",
+            "url": "/url/{id}",
+            "responseFormat": "json",
+            "response": {
+                "mapping": {
+                    "id": "url"
+                }
+            }
+        },
+        {
+            "name": "link",
+            "type": "link",
+            "response": {
+                "mapping": {
+                    "link": "{id}"
+                }
+            }
+        }
+    ]
+}
