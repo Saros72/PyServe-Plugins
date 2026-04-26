@@ -1,0 +1,157 @@
+{
+    "id": "animezone",
+    "media": [
+        "series"
+    ],
+    "type": [
+        "catalogues",
+        "details",
+        "stream",
+        "subtitles"
+    ],
+    "name": "Anime Zone",
+    "author": "Sároš",
+    "version": "0.2.0",
+    "description": "Anime Series.",
+    "responseFormat": "json",
+    "headers": {
+        "accept": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNGY4MjMyMjdkOTIzZDU0YWZlZTFhZWE0NTU4ZjA3MiIsIm5iZiI6MTc1MDA3NzU3Mi41NDMsInN1YiI6IjY4NTAxMDg0MjcxMjUzNGEyNDFlY2VlMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.eBgzi8Z3L5EWsmGIL8X5KKq1PWrUpZBdxHxiIG1xjeQ"
+    },
+    "api": [
+        {
+            "name": "Anime Zone",
+            "type": "catalogue_series_anime_zone",
+            "mediaType": "series",
+            "method": "GET",
+            "url": "https://api.themoviedb.org/3/list/8640096?include_adult=false&include_video=false&language=en-US&page={page}{filterSort:&sort_by={1:title.asc}{2:title.desc}{3:popularity.asc}{4:popularity.desc}{5:primary_release_date.asc}{6:primary_release_date.desc}{7:vote_count.asc}{8:vote_count.desc}}",
+            "response": {
+                "itemsKey": "items",
+                "mapping": {
+                    "id": "id",
+                    "title": "name",
+                    "poster": "poster_path",
+                    "rating": "vote_average",
+                    "releaseDate": "first_air_date"
+                }
+            },
+            "imageBaseUrl": "https://image.tmdb.org/t/p/w342"
+        },
+        {
+            "type": "series_detail",
+            "method": "GET",
+            "url": "https://api.themoviedb.org/3/tv/{id}?language=en-US",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "tmdbId": "id",
+                    "title": "name",
+                    "originalTitle": "original_name",
+                    "overview": "overview",
+                    "tagline": "tagline",
+                    "posterPath": "poster_path",
+                    "backdropPath": "backdrop_path",
+                    "firstAirDate": "first_air_date",
+                    "lastAirDate": "last_air_date",
+                    "rating": "vote_average",
+                    "voteCount": "vote_count",
+                    "genres": "genres[name]",
+                    "originalLanguage": "original_language",
+                    "productionCountries": "production_countries[name]",
+                    "productionCompanies": "production_companies[name]",
+                    "spokenLanguages": "spoken_languages[english_name]",
+                    "status": "status",
+                    "homepage": "homepage",
+                    "adult": "adult",
+                    "popularity": "popularity",
+                    "originCountry": "origin_country",
+                    "numberOfEpisodes": "number_of_episodes",
+                    "numberOfSeasons": "number_of_seasons",
+                    "episodeRunTime": "episode_run_time",
+                    "languages": "languages",
+                    "networks": "networks[name]",
+                    "createdBy": "created_by[name]",
+                    "lastEpisodeToAir": "last_episode_to_air[air_date]",
+                    "nextEpisodeToAir": "next_episode_to_air[air_date]"
+                }
+            },
+            "posterBaseUrl": "https://image.tmdb.org/t/p/w342",
+            "backdropBaseUrl": "https://image.tmdb.org/t/p/w780"
+        },
+        {
+            "type": "series_episodes_detail",
+            "method": "GET",
+            "url": "https://api.themoviedb.org/3/tv/{series_id}/season/{season_number}?language=en-US",
+            "response": {
+                "itemsKey": "episodes",
+                "episodeMapping": {
+                    "id": "id",
+                    "tmdbId": "id",
+                    "imdbId": "imdb_id",
+                    "name": "name",
+                    "overview": "overview",
+                    "airDate": "air_date",
+                    "episodeNumber": "episode_number",
+                    "episodeType": "episode_type",
+                    "runtime": "runtime",
+                    "seasonNumber": "season_number",
+                    "showId": "show_id",
+                    "stillPath": "still_path",
+                    "rating": "vote_average"
+                }
+            },
+            "imageBaseUrl": "https://image.tmdb.org/t/p/w342"
+        },
+        {
+            "name": "search",
+            "type": "stream_search",
+            "method": "GET",
+            "url": "http://127.0.0.1:9666/animezone/{id}/{season_number}/{episode_number}",
+            "response": {
+                "mapping": {
+                    "id": "id",
+                    "name": "title",
+                    "hash": "hash"
+                }
+            }
+        },
+        {
+            "type": "get_playback",
+            "method": "GET",
+            "url": "{id}",
+            "response": {
+                "mapping": {
+                    "result": "playback"
+                }
+            }
+        },
+        {
+            "name": "link",
+            "type": "link",
+            "method": "POST",
+            "url": "http://127.0.0.1:9666/animezone",
+            "body": {
+                "playback": "{{get_playback}}",
+                "hash": "{hash}"
+            },
+            "response": {
+                "mapping": {
+                    "link": "link",
+                    "subtitles": "subtitles"
+                }
+            }
+        },
+        {
+            "name": "subtitles_link",
+            "type": "subtitles_link",
+            "response": {
+                "mapping": {
+                    "id": "{subtitles.id}",
+                    "name": "{subtitles.title}",
+                    "language": "{subtitles.language}",
+                    "link": "{subtitles.url}"
+                }
+            }
+        }
+    ]
+}
